@@ -19,7 +19,7 @@ const Projects = () => {
                 scrollbarWidth: "thin",
                 "&::-webkit-scrollbar": { width: "5px" },
                 "&::-webkit-scrollbar-thumb": { backgroundColor: "#888", borderRadius: "10px" },
-                paddingTop: "94px",
+                paddingTop: "75px",
             }}
         >
             {/* 🔥 Projects Heading */}
