@@ -2,7 +2,7 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from "react-route
 import { Box } from "@mui/material";
 import Header from "./components/header";
 import Footer from "./components/footer";
-import Home from "./components/home";
+import Home from "./components/portfolio";
 import About from "./components/about";
 import Projects from './components/projects'
 import Contact from './components/contact'

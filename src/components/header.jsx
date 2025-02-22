@@ -11,7 +11,7 @@ const Header = () => {
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
         Beyond Code | Akansha Bhagat
         </Typography>
-        <Link to="/" style={{ color: "white", marginRight: 20, textDecoration: "none" }}>Home</Link>
+        <Link to="/portfolio" style={{ color: "white", marginRight: 20, textDecoration: "none" }}>Home</Link>
         <Link to="/about" style={{ color: "white", marginRight: 20, textDecoration: "none" }}>About</Link>
         <Link to="/projects" style={{ color: "white", marginRight: 20, textDecoration: "none" }}>Projects</Link>
         <Link to="/contact" style={{ color: "white", textDecoration: "none" }}>Contact</Link>
