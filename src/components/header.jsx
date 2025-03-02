@@ -7,7 +7,7 @@ const Header = () => {
       position="fixed"  
       sx={{ bgcolor: "#1E1E1E", top: 0, left: 0 }}  // Dark background & fixed position
     >
-      <Toolbar sx={{ px: 3 }}>  {/* Padding for better spacing */}
+      <Toolbar sx={{ px: 1 }}>  {/* Padding for better spacing */}
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
         Beyond Code | Akansha Bhagat
         </Typography>
