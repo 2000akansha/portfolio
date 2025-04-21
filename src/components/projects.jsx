@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { Box, Typography, Divider,  } from "@mui/material";
+import { Box, Typography, Divider, } from "@mui/material";
 
 const projects = [
     {
@@ -27,23 +27,31 @@ const projects = [
         hoverColor: "#ba68c8",
     },
     {
-        title: "⚕️ Health Assist (Product)",
-        description: "A healthcare platform for personalized recommendations, appointment scheduling, and secure medical record management.",
-        color: "#f50057",
-        hoverColor: "#ff4081",
+        title: "💰 Loan Management System",
+        description: "A  platform that is made to manage the loan disbursement to the people on the behalf of their land.",
+        color: "#9c27b0",
+        hoverColor: "#ba68c8",
     },
-    {
-        title: "💸 E-BG (HDFC Project)",
-        description: "Developed a secure electronic bank guarantee system for HDFC Bank, focusing on API security and fraud prevention.",
-        color: "#ff5722",
-        hoverColor: "#ff8a65",
-    },
-    {
-        title: "🏠 Chandigarh Housing Board (Govt Project)",
-        description: "Contributed to a digital housing management system, streamlining property allocation and financial transactions.",
-        color: "#3f51b5",
-        hoverColor: "#7986cb",
-    }
+
+
+    // {
+    //     title: "⚕️ Health Assist (Product)",
+    //     description: "A healthcare platform for personalized recommendations, appointment scheduling, and secure medical record management.",
+    //     color: "#f50057",
+    //     hoverColor: "#ff4081",
+    // },
+    // {
+    //     title: "💸 E-BG (HDFC Project)",
+    //     description: "Developed a secure electronic bank guarantee system for HDFC Bank, focusing on API security and fraud prevention.",
+    //     color: "#ff5722",
+    //     hoverColor: "#ff8a65",
+    // },
+    // {
+    //     title: "🏠 Chandigarh Housing Board (Govt Project)",
+    //     description: "Contributed to a digital housing management system, streamlining property allocation and financial transactions.",
+    //     color: "#3f51b5",
+    //     hoverColor: "#7986cb",
+    // }
 ];
 
 const Projects = () => {
