@@ -34,24 +34,24 @@ const projects = [
     },
 
 
-    // {
-    //     title: "⚕️ Health Assist (Product)",
-    //     description: "A healthcare platform for personalized recommendations, appointment scheduling, and secure medical record management.",
-    //     color: "#f50057",
-    //     hoverColor: "#ff4081",
-    // },
-    // {
-    //     title: "💸 E-BG (HDFC Project)",
-    //     description: "Developed a secure electronic bank guarantee system for HDFC Bank, focusing on API security and fraud prevention.",
-    //     color: "#ff5722",
-    //     hoverColor: "#ff8a65",
-    // },
-    // {
-    //     title: "🏠 Chandigarh Housing Board (Govt Project)",
-    //     description: "Contributed to a digital housing management system, streamlining property allocation and financial transactions.",
-    //     color: "#3f51b5",
-    //     hoverColor: "#7986cb",
-    // }
+    {
+        title: "⚕️ Health Assist (Product)",
+        description: "A healthcare platform for personalized recommendations, appointment scheduling, and secure medical record management.",
+        color: "#f50057",
+        hoverColor: "#ff4081",
+    },
+    {
+        title: "💸 E-BG (HDFC Project)",
+        description: "Developed a secure electronic bank guarantee system for HDFC Bank, focusing on API security and fraud prevention.",
+        color: "#ff5722",
+        hoverColor: "#ff8a65",
+    },
+    {
+        title: "🏠 Chandigarh Housing Board (Govt Project)",
+        description: "Contributed to a digital housing management system, streamlining property allocation and financial transactions.",
+        color: "#3f51b5",
+        hoverColor: "#7986cb",
+    }
 ];
 
 const Projects = () => {

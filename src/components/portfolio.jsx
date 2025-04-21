@@ -31,7 +31,7 @@ const Home = () => {
           fontWeight: "bold",
         }}
       >
-        Hi, I'm Akansha Bhagat
+        Hi, I am Akansha Bhagat
       </Typography>
 
       <Typography 
