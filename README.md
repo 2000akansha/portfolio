@@ -1,34 +1,8 @@
-# Personal Portfolio - MERN Stack
+# React + Vite
 
-This is a personal portfolio website built using the MERN stack with React.js for the frontend and Material UI CSS for styling. The portfolio showcases projects, skills, and a contact section.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-- Modern and responsive UI using Material UI .
-- Projects section highlighting key projects with descriptions and icons.
-- Contact section with LinkedIn and email links.
-- Fully responsive design optimized for both mobile and desktop users.
-
-## Tech Stack
-
-### Frontend
-- React.js - Component-based UI.
-- Material UI (MUI) - Pre-styled UI components.
-
-
-### Backend (if applicable)
-- Node.js - Server-side JavaScript runtime.
-- Express.js - Backend framework.
-- MongoDB - NoSQL database.
-
-## Project Structure
-
-## Setup Instructions
-
-### 1. Clone the Repository
-```bash
-git clone https://github.com/2000akansha/your-portfolio.git
-cd your-portfolio
-npm install
-npm start
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
