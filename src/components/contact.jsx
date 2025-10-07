@@ -85,7 +85,7 @@ const Contact = () => {
                             },
                         }}
                         component="a"
-                        href="https://www.linkedin.com/in/akansha-b-6972b9289/"
+                        href="https://linkedin.com/in/akansha-bhagat-6972b9289"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
