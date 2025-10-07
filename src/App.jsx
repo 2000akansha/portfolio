@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
 
 const App = () => {
   return (
-    <Router>
+    <Router  basename="/portfolio">
       <Layout>
         <Routes>
           <Route path="/portfolio" element={<Home />} />
