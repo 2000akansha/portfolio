@@ -1,11 +1,12 @@
-import { BrowserRouter as Router, Routes, Route, useLocation } from "react-router-dom";
+import { HashRouter as Router, Routes, Route, useLocation } from "react-router-dom";
 import { Box } from "@mui/material";
 import Header from "./components/header";
 import Footer from "./components/footer";
 import Home from "./components/portfolio";
 import About from "./components/about";
-import Projects from './components/projects'
-import Contact from './components/contact'
+import Projects from "./components/projects";
+import Contact from "./components/contact";
+
 const Layout = ({ children }) => {
   const location = useLocation();
 
@@ -14,17 +15,17 @@ const Layout = ({ children }) => {
       sx={{
         display: "flex",
         flexDirection: "column",
-        minHeight: "100vh", // Ensures full viewport height
+        minHeight: "100vh",
         width: "100vw",
-        overflowX: "auto", // Horizontal scroll only when needed
+        overflowX: "auto",
       }}
     >
       <Header />
       <Box
         sx={{
           flexGrow: 1,
-          overflowY: "auto", // Enables vertical scrolling only if needed
-          overflowX: "hidden", // Prevents unnecessary horizontal scroll
+          overflowY: "auto",
+          overflowX: "hidden",
         }}
       >
         {children}
@@ -36,15 +37,13 @@ const Layout = ({ children }) => {
 
 const App = () => {
   return (
-    <Router  basename="/portfolio">
+    <Router>
       <Layout>
         <Routes>
-          <Route path="/portfolio" element={<Home />} />
+          <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
           <Route path="/contact" element={<Contact />} />
-
-          {/* Add more routes as needed */}
         </Routes>
       </Layout>
     </Router>
