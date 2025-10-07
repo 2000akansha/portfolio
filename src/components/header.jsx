@@ -74,7 +74,7 @@ const Header = () => {
     { label: "Contact", to: "/contact" },
     {
       label: "Resume",
-      href: "https://drive.google.com/file/d/1zYobPJzGRLlzTSh-EUIfXlFYA63huSlp/view?usp=sharing",
+      href: "https://drive.google.com/file/d/1RDfdPJisGxDD1DrH08SA0uaS4TFa62_6/view?usp=sharing",
       external: true // mark it as external
     },
   ];
